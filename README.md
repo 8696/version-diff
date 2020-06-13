@@ -15,7 +15,7 @@ const diff = require('version-diff');
 
 - diff：Function
     - param
-        + rangeV: Array\<min: String, Max: String\> 版本范围，例如 ['0.0.1', '1.0.0'] 表示从0.0.1至1.0.0之间可匹配。包含0.0.1、但不包括1.0.0
+        + rangeV: Array\<min: String, max: String\> 版本范围，例如 ['0.0.1', '1.0.0'] 表示从0.0.1至1.0.0之间可匹配。包含0.0.1、但不包括1.0.0
         + diffV: String 被对比版本
     - return
         + Boolean
