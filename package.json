@@ -1,0 +1,24 @@
+{
+  "name": "version-diff",
+  "version": "1.0.1",
+  "description": "版本对比工具",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/8696/version-diff.git"
+  },
+  "keywords": [
+    "version-diff",
+    "version",
+    "diff"
+  ],
+  "author": "longjinwen<204084802@qq.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/8696/version-diff/issues"
+  },
+  "homepage": "https://github.com/8696/version-diff#readme"
+}
