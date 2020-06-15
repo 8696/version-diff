@@ -20,5 +20,7 @@
   "bugs": {
     "url": "https://github.com/8696/version-diff/issues"
   },
-  "homepage": "https://github.com/8696/version-diff#readme"
+  "homepage": "https://github.com/8696/version-diff#readme",
+  "devDependencies": {
+  }
 }
