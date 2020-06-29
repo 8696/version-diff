@@ -22,5 +22,7 @@
   },
   "homepage": "https://github.com/8696/version-diff#readme",
   "devDependencies": {
+    "koa": "^2.13.0",
+    "koa-router": "^9.0.1"
   }
 }
