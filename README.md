@@ -77,3 +77,6 @@ console.log(diff.main('2.0', '2.0'));             // =
 console.log(diff.main('2', '2.0.0.0'));           // =
 console.log(diff.main('2.0.0.1.0.1', '2.0.0.1')); // >
 ```
+
+#### 使用实例
+[链接](http://8696.icode.link/#doc/%E6%89%A9%E5%B1%95/%E5%90%8E%E7%AB%AF%E7%9A%84%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6.md)
