@@ -2,7 +2,7 @@
   "name": "version-diff",
   "version": "2.0.0",
   "description": "版本对比工具 - 支持node、web",
-  "main": "src/index.js",
+  "main": "lib/node.lib.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack --env.NODE_ENV=development -w --config build.config.js",
