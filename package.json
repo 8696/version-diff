@@ -1,10 +1,12 @@
 {
   "name": "version-diff",
-  "version": "1.1.0",
-  "description": "版本对比工具",
+  "version": "2.0.0",
+  "description": "版本对比工具 - 支持node、web",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --env.NODE_ENV=development -w --config build.config.js",
+    "build": "webpack --env.NODE_ENV=production --config build.config.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +25,18 @@
   "homepage": "https://github.com/8696/version-diff#readme",
   "devDependencies": {
     "koa": "^2.13.0",
-    "koa-router": "^9.0.1"
+    "koa-router": "^9.0.1",
+    "@types/node": "^13.7.4",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "merge": "^1.2.1",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.4",
+    "webpack": "^4.19.0",
+    "webpack-cli": "^3.1.2",
+    "webpack-merge": "^4.2.2"
   }
 }

@@ -1,7 +1,7 @@
 const Koa = require('koa');
 const app = new Koa();
 const router = require('koa-router')();
-const vDiff = require('../src/index');
+const vDiff = require('../src/main');
 
 app.use(async (ctx, next) => {
   // 接收前端携带的版本信息

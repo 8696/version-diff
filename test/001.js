@@ -1,4 +1,4 @@
-const diff = require('../src/index');
+const diff = require('./node.lib.dev');
 
 console.log(diff(['1', '2'], '1.2'));             // true
 console.log(diff(['1.0', '2.0'], '1.2.345'));     // true
